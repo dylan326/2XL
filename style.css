@@ -1,0 +1,36 @@
+.question {
+    border:1px solid black;
+}
+
+div {
+    border:1px solid black;
+    margin:2px;
+}
+p {
+    margin:1px;
+}
+
+div>p:nth-child(2n) {
+    background: #e2dfc3;
+}
+
+li {
+    margin:1px;
+    padding:2px;
+}
+h1,h2,h3,h4,h5,h6 {
+    text-shadow:1px 1px 1px rgb(0,0,0);
+    margin:3px;
+}
+a,a:visited,a:hover {
+    color:#5391f4;
+    text-shadow:1px 1px 0px rgb(0,0,0);
+}
+p>span {
+    color:#5391f4;
+    text-shadow:1px 1px 0px rgb(0,0,0);
+}
+ol,ul {
+    margin:0px;
+}
+                                  
